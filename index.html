@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body class="container" ng-app="Store" ng-controller="MainCtrl" >
+<h1>Добавить продукт</h1>
+<form class="form-inline">
+  <div class="form-group">
+    <label for="name">Продукт</label>
+    <input id="name" type="text" class="form-control"  ng-model="newItem.name">
+</div>
+<div class="form-group">
+    <label for="price">Цена</label>
+    <input id="price" type="number" min="0" class="form-control"  ng-model="newItem.price">
+  </div>
+  <button class="btn btn-default" ng-click="add()">Добавить</button>
+</form>
+<h2>Корзина</h2>
+<table class="table  table-bordered table-condensed">
+<thead>
+  <tr>
+      <th>Продукт</th>
+      <th>Цена</th>
+      <th>Цена со скидкой</th>
+  </tr>
+</thead>
+<tbody>
+    <tr ng-repeat="pur in purchases" ng-cloak>
+       <td >{{pur.name}}</td>
+       <td >{{pur.price}}</td>
+       <td >{{pur.price - pur.discount}}</td>
+    </tr>
+</tbody>
+</table>
+<form class="form-inline">
+    <div class="form-group">
+    <p>Применить скидку</p>
+    <input type="number" min="0" class="form-control" ng-model="globalDiscount">
+    <p>рублей</p>
+  </div>
+  <button class="btn btn-default" ng-click="update(globalDiscount)">Применить</button>
+</form>
+</body>
+
+<script src="js/angular.min.js"></script>
+<script src="js/StoreModule.js"></script>
+<script src="js/StoreService.js"></script>
+<script src="js/StoreControllers.js"></script>
+</html>
