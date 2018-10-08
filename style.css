@@ -57,15 +57,16 @@ body{
     padding-top: 15vh;;;;;;;;;;;;;;}
 .info{
     background: #fff;
-    width: 500px;
     font-size: 27px;
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
     font-family: Roboto;
     text-align: center;
-    margin-bottom: 40px;;;;;;;;;;}
+    margin-bottom: 40px;
+    max-width: 500px;;;;;;;;;;}
 .info div{}
+
 .info p{}
 .info a{
     text-decoration: none;;}
@@ -157,3 +158,8 @@ body{
     background-image: url(img/bi.png);}
 .link:hover{
     box-shadow: 0 8px 17px 0 #e4e4e433, 0 6px 20px 0 #dcdcdc33;}
+@media(max-width: 350px){
+.info {margin-left:-15px;margin-right:-15px ;font-size: 17px;padding: 30px 5px;}
+.info a{font-size: 18px}
+.link{margin-right: 0px;width: 100%;    font-size: 22px;}
+}
