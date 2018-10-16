@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64.833px" height="66px" viewBox="0 0 64.833 66" enable-background="new 0 0 64.833 66" xml:space="preserve">
+<g>
+	<path fill="none" stroke="#ED3237" stroke-miterlimit="10" d="M43.333,1.5v62V1.5z"/>
+	<path fill="none" stroke="#ED3237" stroke-miterlimit="10" d="M21.333,1.5v62V1.5z"/>
+	<path fill="none" stroke="#ED3237" stroke-miterlimit="10" d="M1.333,21h62H1.333z"/>
+	<path fill="none" stroke="#ED3237" stroke-miterlimit="10" d="M1.333,26h62H1.333z"/>
+	<path fill="none" stroke="#ED3237" stroke-miterlimit="10" d="M1.333,42h62H1.333z"/>
+	<path fill="none" stroke="#ED3237" stroke-miterlimit="10" d="M1.333,47h62H1.333z"/>
+	<circle fill="#ED3237" cx="21.333" cy="26" r="2.5"/>
+	<circle fill="#ED3237" cx="43.333" cy="26" r="2.5"/>
+	<circle fill="#ED3237" cx="62.333" cy="26" r="2.5"/>
+	<circle fill="#ED3237" cx="3.333" cy="26" r="2.5"/>
+	<circle fill="#ED3237" cx="21.333" cy="47" r="2.5"/>
+	<circle fill="#ED3237" cx="43.333" cy="47" r="2.5"/>
+	<circle fill="#ED3237" cx="62.333" cy="47" r="2.5"/>
+	<circle fill="#ED3237" cx="3.333" cy="47" r="2.5"/>
+	<path fill="none" stroke="#ED3237" stroke-width="3" stroke-miterlimit="10" d="M63.333,64.217c0,0.157-0.127,0.283-0.283,0.283
+		H1.783c-0.157,0-0.283-0.127-0.283-0.283V1.783C1.5,1.627,1.627,1.5,1.783,1.5H63.05c0.157,0,0.283,0.127,0.283,0.283V64.217z"/>
+</g>
+</svg>

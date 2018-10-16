@@ -1,0 +1,973 @@
+
+@charset 'UTF-8';
+body.chint2 {
+  min-width: 320px;
+}
+body.chint2 main {}
+body.chint2 main>.wrap {}
+body.chint2 .tabBlock {
+  width: 100%;
+  max-width: 1322px;
+  margin: 0px auto 0px;
+}
+body.chint2 .tabBlock .wrap {
+  overflow: auto;
+  padding: 34px 15px 0px;
+  position: relative;
+  z-index: 2;
+}
+body.chint2 .tabBlock p.tabBtn {
+  color: #a0a0a0;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  float: left;
+  margin-right: 40px;
+  cursor: pointer;
+  margin-bottom: 0px;
+  line-height: 44px;
+  border-bottom: 2px solid transparent;
+}
+body.chint2 .tabBlock p.tabBtn:hover,
+body.chint2 .tabBlock p.tabBtn.active {
+  color: #006cb5;
+  font-family: "Open Sans";
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 2px solid #006cb5;
+}
+body.chint2 section {
+  background-color: #ffffff;
+  width: 100%;
+}
+body.chint2 section>.wrap {
+  padding: 32px 15px 0px;
+  overflow: auto;
+  width: 100%;
+  max-width: 1327px;
+  margin: 0px auto;
+}
+body.chint2 #bascetBlock {
+  width: 100%;
+}
+body.chint2 #bascetBlock>.wrap {
+  overflow: auto;
+  padding: 34px 15px 21px;
+  position: relative;
+  margin: 0px auto;
+  width: 100%;
+  max-width: 1322px;
+}
+body.chint2 #bascetBlock .title {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 700;
+}
+body.chint2 #bascetBlock .table {}
+body.chint2 #bascetBlock .thead {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #f1f0f0;
+}
+
+/*body.chint2 #bascetBlock .thead tr{}*/
+body.chint2 #bascetBlock .thead>div {
+  color: #a0a0a0;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400;
+  padding: 8px 0px 0px;
+}
+
+/*body.chint2 #bascetBlock .thead td:nth-child(3),
+body.chint2 #bascetBlock .thead td:nth-child(4){;
+}*/
+body.chint2 #bascetBlock .imgBlock {
+  width: 12%;
+}
+body.chint2 #bascetBlock .nameBlock {
+  width: 31%;
+}
+body.chint2 #bascetBlock .priceBlock {
+  text-align: center;
+  width: 22%;
+}
+body.chint2 #bascetBlock .editBlock {
+  text-align: center;
+  width: 20%;
+}
+body.chint2 #bascetBlock .delBlock {
+  text-align: right;
+  width: 15%;
+}
+body.chint2 #bascetBlock .line {
+  width: 100%;
+  display: flex;
+  padding: 3px 0px;
+  overflow: auto;
+}
+body.chint2 #bascetBlock .thead .imgBlock {}
+body.chint2 #bascetBlock .thead .nameBlock {}
+body.chint2 #bascetBlock .thead .priceBlock {}
+body.chint2 #bascetBlock .thead .editBlock {}
+body.chint2 #bascetBlock .thead .delBlock {}
+body.chint2 #bascetBlock .tbody .imgBlock {}
+body.chint2 #bascetBlock .tbody .nameBlock {
+  padding: 15px 0px 37px;
+}
+body.chint2 #bascetBlock .tbody .priceBlock {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+body.chint2 #bascetBlock .tbody .editBlock {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+body.chint2 #bascetBlock .tbody .delBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body.chint2 #bascetBlock .tbody {}
+body.chint2 #bascetBlock .tbody>div {
+  border-bottom: 1px solid #f1f0f0;
+}
+body.chint2 #bascetBlock .tbody>div>div {}
+body.chint2 #bascetBlock .tbody .imgBlock {
+  width: calc(12%);
+  padding: 10px 0px;
+}
+body.chint2 #bascetBlock .tbody .imgBlock img {
+  max-height: 111px;
+  margin-right: 15px;
+  max-width: 100%;
+}
+body.chint2 #bascetBlock .art {
+  color: #a0a0a0;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 8px;
+}
+body.chint2 #bascetBlock .name {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  max-width: 297px;
+}
+body.chint2 #bascetBlock p.price {
+  font-family: "Open Sans";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000;
+}
+body.chint2 #bascetBlock p.price>b {
+  font-family: "Open Sans";
+  font-size: 15px;
+}
+body.chint2 .edit {
+  width: 140px;
+  margin: 0px auto;;;}
+body.chint2 i.del {
+  width: 46px;
+  height: 12px;
+  background-image: url(../img/i_del.png);
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body.chint2 .edit button.minus {
+  height: 36px;
+  border: none;
+  width: 30px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: center;
+  background-image: url(../img/i_minus.png);
+  float: left;
+  display: block;
+}
+body.chint2 .edit input {
+  background-color: #f4f4f4;
+  width: 80px;
+  border: none;
+  text-align: center;
+  height: 36px;
+  line-height: 36px;
+  float: left;
+  /*margin-top: 11px;;*/
+}
+body.chint2 .edit button.plus {
+  background-color: transparent;
+  border: none;
+  background-image: url(../img/i_plus.png);
+  height: 36px;
+  background-position: center;
+  width: 30px;
+  background-repeat: no-repeat;
+  float: left;;
+}
+body.chint2 .edit button.plus:active,
+body.chint2 .edit button.minus:active {
+}
+body.chint2 #bascetBlock .del {
+  color: #006cb5;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  background-color: transparent;
+  border: none;
+}
+body.chint2 #bascetBlock .summa {
+  border-bottom: 1px solid #f1f0f0;
+  overflow: auto;
+  padding: 32px 0px;
+  margin-bottom: 20px;
+}
+body.chint2 #bascetBlock .summa .wrap {
+  float: right;
+}
+body.chint2 #bascetBlock .summa b {
+  float: left;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  margin-left: 12px;
+}
+body.chint2 #bascetBlock .summa p {
+  float: left;
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 12px;
+  margin-bottom: 0px;
+}
+body.chint2 .btnBack {
+  font-family: "Open Sans";
+  font-size: 14px;
+  color: #006cb5;
+  line-height: 14px;
+  float: left;
+  text-align: center;
+  padding: 14px 15px;
+  border: 1px solid #006cb5;
+  font-weight: 400;
+}
+body.chint2 .btnNext {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #006cb5;
+  float: right;
+  text-align: center;
+  padding: 15px 48px;
+  line-height: 14px;
+  text-decoration: none;
+      border: none;
+}
+@media(max-width: 790px) {
+  body.chint2 .tabBlock .wrap {
+    padding: 25px 15px 0px;
+  }
+  body.chint2 .tabBlock p.tabBtn {
+    font-size: 10px;
+    line-height: 26px;
+    margin-right: 29px;
+  }
+  body.chint2 .tabBlock p.tabBtn:hover,
+  body.chint2 .tabBlock p.tabBtn.active {}
+  body.chint2 #bascetBlock>.wrap {
+    padding: 20px 15px 21px;
+  }
+  body.chint2 #bascetBlock .thead {
+    display: none;
+  }
+  body.chint2 #bascetBlock .tbody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body.chint2 #bascetBlock .tbody .line {
+    display: block;
+    padding: 3px 0px 8px;
+    width: 100%;
+    max-width: 500px;
+  }
+  body.chint2 #bascetBlock .tbody .imgBlock {
+    width: 100%;
+    height: 140px;
+    overflow: auto;
+  }
+  body.chint2 #bascetBlock .tbody .imgBlock img {
+    margin: 8px auto 0px;
+    width: 115px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+  body.chint2 #bascetBlock .tbody .nameBlock {
+    width: 100%;
+    padding: 0px 0px 21px;
+    text-align: center;
+  }
+  body.chint2 #bascetBlock .art {
+    line-height: 10px;
+    font-size: 12px;
+  }
+  body.chint2 #bascetBlock .name {
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    display: inline-block;
+  }
+  body.chint2 #bascetBlock .tbody .priceBlock {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  body.chint2 #bascetBlock .tbody .editBlock {
+    width: 149px;
+    float: left;
+  }
+  body.chint2 #bascetBlock .tbody .delBlock {
+    float: right;
+    width: 149px;
+    position: relative;
+    top: 8px;
+  }
+}
+@media(max-width: 450px) {
+  body.chint2 .btnBack,
+  body.chint2 .btnNext {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+body.chint2 #authBlock {}
+body.chint2 #authBlock .col3 {
+  width: 33%;
+  float: left;
+  padding-right: 31px;
+  padding-bottom: 33px;
+}
+body.chint2 #authBlock .col3 .regit {}
+body.chint2 #authBlock .col3 .title {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 700;
+  height: 36px;
+  margin-bottom: 9px;
+}
+body.chint2 #authBlock .col3 div {
+  position: relative;
+  overflow: auto;;;
+}
+body.chint2 #authBlock .col3 p {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.07px;
+  margin-bottom: 0px;
+}
+body.chint2 #authBlock .col3 input:not([type="submit"]) {
+  background-color: #f4f4f4;
+  padding: 5px 13px;
+  /*border: 1px solid #f4f4f4;*/
+  position: relative;
+  width: 100%;
+  height: 47px;
+}
+body.chint2 #authBlock .col3 input:not([type="submit"]):focus,
+body.chint2 #authBlock .col3 textarea:focus {
+  border: 1px solid #60646c;
+  outline: none;
+}
+/*body.chint2 #authBlock .col3 .input_empty input {
+  border: 1px solid #f09395
+}
+body.chint2 #authBlock .col3 .input_empty:after {
+  content: "Не заполнено \1F7B3";
+  color: #ed3237;
+  font-size: 14px;
+  display: block;
+  position: absolute;
+  top: 26px;
+  right: 14px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  line-height: 40.07px;
+}*/
+body.chint2 .inputComment textarea {
+  background-color: #f4f4f4;
+  padding: 5px 13px;
+  border: 1px solid #f4f4f4;
+  width: 100%;
+}
+body.chint2 .inputCaptcha {}
+body.chint2 .inputCaptcha span {
+  background-color: #f4f4f4;
+  padding: 5px 13px;
+  height: 47px;
+  width: 120px;
+  float: left;
+  line-height: 34px;
+}
+body.chint2 #authBlock .col3 .inputCaptcha input:not([type="submit"]) {
+  float: right;
+  width: 140px;
+}
+body.chint2 #authBlock .regit .select2-container {
+  width: 100%!important;
+}
+body.chint2 #authBlock .regit option {}
+body.chint2 #authBlock .btnBl {
+  overflow: auto;
+  margin-top: 15px;
+}
+body.chint2 #authBlock .forget {
+  text-align: right;
+  display: block;
+  font-size: 14px;
+  margin-top: 14px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #f4f4f4;
+  padding-bottom: 14px;
+}
+body.chint2 #authBlock .redit {
+  padding-top: 69px;
+  float: right;
+  padding-right: 0px;;
+}
+body.chint2 .redit .bl {
+  border: 1px solid #e3e2e2;
+  background-color: #ffffff;
+  padding: 24px 15px 15px 22px;
+}
+body.chint2 #authBlock .redit .bl>p,
+body.chint2 .redit .bl>p {
+  color: #006cb5;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.07px;
+  height: 16px;
+  margin-bottom: 33px;
+}
+body.chint2 .redit .bl a {
+  display: block;
+  height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 30px;
+  ;
+}
+body.chint2 .redit .i_pen {
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/i_pen.png);
+  display: block;
+  background-position: center;
+  float: left;
+  margin-right: 8px;
+  background-size: cover;
+  margin-left: ;
+}
+body.chint2 .redit .wrap {
+  max-height: 342px;
+  overflow: auto;
+  margin-bottom: 0px;
+}
+body.chint2 .redit .prod {
+  border-bottom: 1px solid #f1f1f1;
+}
+body.chint2 .redit .art {
+  color: #a0a0a0;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  margin-bottom: 3px;
+  overflow: initial!important;
+  padding-top: 8px;
+}
+body.chint2 .redit .name {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  margin-bottom: 0px;
+}
+body.chint2 .redit .quant {
+  color: #a0a0a0;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 0px;
+}
+body.chint2 .redit .price {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+}
+body.chint2 .redit .prod .price b {
+  font-weight: 700;
+  float: left;
+  font-size: 14px;
+  margin-right: 7px;
+}
+body.chint2 .redit .prod .price p {
+  font-size: 12px;
+}
+body.chint2 .redit .summ {
+  padding: 3px 6px 0px;
+}
+body.chint2 .redit .summ>b {
+  font-family: "Open Sans";
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 18.38px;
+  text-transform: uppercase;
+}
+body.chint2 .redit .summ>p {
+  color: #a0a0a0;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 10px;
+}
+body.chint2 .redit .summ .num {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18.42px;
+  float: right;
+  margin-top: -24px;
+}
+body.chint2 .redit .summ .num b {
+  font-weight: 800;
+}
+body.chint2 .redit .summ .num p {
+  font-size: 15px;
+  float: right;
+  margin-left: 7px;
+}
+body.chint2 #authBlock .btnEnteMobiler,
+body.chint2 #authBlock .btnRegitMobile {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 70px;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid whitesmoke;
+  cursor: pointer;
+  color: #006cb5;
+  display: none;
+}
+@media(max-width: 767px) {
+  body.chint2 #authBlock .btnEnteMobiler,
+  body.chint2 #authBlock .btnRegitMobile {
+    display: block;
+  }
+  body.chint2 #authBlock .enter,
+  body.chint2 #authBlock .redit,
+  body.chint2 #authBlock .regit {
+    display: none;
+  }
+  body.chint2 #authBlock .enter.active,
+  body.chint2 #authBlock .regit.active {
+    display: block;
+  }
+  body.chint2 section>.wrap {
+    padding: 0px 15px 0px;
+  }
+  body.chint2 #authBlock .col3 .title {
+    display: none;
+  }
+  body.chint2 #authBlock .col3 p {
+    line-height: 22px;
+    font-size: 12px;
+  }
+/*  body.chint2 #authBlock .col3 input {
+    padding: 0px 13px;
+    height: 37px;
+    font-size: 12px;
+  }*/
+  body.chint2 #authBlock .regit option,
+  body.chint2 #authBlock .col3 div select,
+  body.chint2 .inputComment textarea,
+  .select2-container--default .select2-selection--single .select2-selection__rendered,
+  body.chint2 .inputCaptcha span {
+    font-size: 12px;
+  }
+  body.chint2 #authBlock .col3 .input_empty:after {
+    font-size: 12px;
+    line-height: 26px;
+  }
+  body.chint2 #authBlock .col3 div {
+    margin-bottom: 1px;
+  }
+  body.chint2 #authBlock .forget {
+    margin-top: 2px;
+    font-size: 12px;
+  }
+}
+body.chint2 #takeBlock {
+  padding-bottom: 85px;
+}
+body.chint2 #takeBlock .col6 {
+  width: 66%;
+  float: left;
+}
+body.chint2 #takeBlock .col6>p {
+  color: #a0a0a0;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 400;
+}
+body.chint2 #takeBlock .wrap {}
+body.chint2 #takeBlock .take1 {}
+body.chint2 #takeBlock .take2 {
+  padding-top: 48px;
+}
+body.chint2 #takeBlock .take {
+  width: 50%;
+  padding-right: 35px;
+  float: left;
+  margin-bottom: 53px;
+}
+body.chint2 #takeBlock .take .title {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+body.chint2 #takeBlock .inputField {
+  float: left;
+  width: 100%;
+  margin-right: 35px;
+}
+body.chint2 #takeBlock .take p {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.07px;
+  color: #000;
+  margin-bottom: 1px;
+  width: calc(100% - 35px);
+}
+body.chint2 #takeBlock .select2-container {
+  width: 100%!important;
+}
+body.chint2 #takeBlock select {}
+body.chint2 #takeBlock .btnAdd {
+  width: 100%;
+  border: 1px solid #d9e9f4;
+  background-color: #d9e9f4;
+  color: #006cb5;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 40.07px;
+  margin-top: 26px;
+  position: relative;
+  height: 46px;
+}
+body.chint2 #takeBlock .i_plus2 {
+  background-image: url(../img/i_plus2.png);
+  width: 18px;
+  height: 17px;
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 13px;
+  background-position: center;
+  background-repeat: no-repeat;
+  ;
+}
+body.chint2 #takeBlock .btnAdd.open .i_plus2 {
+  background-image: url(../img/i_plus3.png);
+}
+body.chint2 #takeBlock .form {
+  display: none;
+  padding-top: 21px;
+  ;
+}
+body.chint2 #takeBlock .form.open {
+  display: block;
+}
+body.chint2 #takeBlock .form .inputEl {
+  margin-bottom: 20px;
+}
+body.chint2 #takeBlock .form .inputEl p {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  margin-bottom: 4px;
+}
+body.chint2 #takeBlock .form .inputEl input:not([type="submit"]) {
+  height: 47px;
+  background-color: #f4f4f4;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40.07px;
+  border: 1px solid #f4f4f4;
+  width: 100%;
+  color: #000000;
+  padding: 0px 11px;
+}
+body.chint2 #takeBlock .form .inputEl input:not([type="submit"]):focus {
+  border: 1px solid #60646c;
+  outline: none;
+}
+body.chint2 #takeBlock .btnBl {
+  width: calc(100% - 35px);
+  overflow: auto;
+  margin-top: 58px;
+  border-top: 1px solid #f1f0f0;
+  padding-top: 19px;
+  padding-bottom: 23px;
+}
+body.chint2 #takeBlock .btnBl a {}
+body.chint2 #takeBlock .redit {
+  width: 33%;
+  padding-top: 74px;
+  float: right;
+}
+body.chint2 #takeBlock .distr {
+  width: 100%;
+  overflow: auto;
+  padding: 36px 0px 0px;
+  ;
+  ;
+  ;
+}
+body.chint2 #takeBlock .distr .title {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  margin-bottom: 14px;
+}
+body.chint2 #takeBlock .distr .wrap {
+  max-height: 401px;
+  border: 1px solid #f1f1f1;
+  overflow: auto;
+  ;
+}
+body.chint2 #takeBlock .distr .wrap div {
+  border-bottom: 1px solid #f1f1f1;
+  padding: 11px 20px;
+  ;
+}
+body.chint2 #takeBlock .distr p {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+}
+body.chint2 #takeBlock .distr a {
+  color: #006cb5;
+}
+body.chint2 #takeBlock .distr .wrap div.active,
+body.chint2 #takeBlock .distr .wrap div:hover {
+  transition: none;
+  background-color: #006cb5;
+}
+body.chint2 #takeBlock .distr .wrap div.active p,
+body.chint2 #takeBlock .distr .wrap div:hover p {
+  transition: none;
+  color: #fff;
+}
+body.chint2 #takeBlock .distr .wrap div.active a,
+body.chint2 #takeBlock .distr .wrap div:hover a {
+  color: #fff;
+  transition: none;
+}
+@media(max-width: 1260px) {
+  body.chint2 #authBlock .btnBl {}
+  body.chint2 .btnNext,
+  body.chint2 #authBlock .btnBl a {
+    width: 100%;
+    margin-top: 10px;
+  }
+  body.chint2 #takeBlock .take,
+  body.chint2 #takeBlock .redit {
+    width: 50%;
+  }
+  body.chint2 #takeBlock .btnBl {
+    width: 100%;
+  }
+  body.chint2 #takeBlock .take1,
+  body.chint2 #takeBlock .take2 {
+    width: 100%;
+    padding-right: 0px;
+    padding-top: 0px;
+  }
+  body.chint2 #takeBlock .col6 {
+    width: 50%;
+    padding-right: 35px;
+  }
+}
+@media(max-width: 1000px) {
+  body.chint2 #authBlock .col3.enter,
+  body.chint2 #authBlock .redit,
+  body.chint2 #authBlock .col3.regit {
+    width: 50%;
+  }
+  body.chint2 #authBlock .redit {
+    padding-top: 0px;
+    padding-right: 30px;
+  }
+  body.chint2 #takeBlock .btnBl a {
+    width: 100%;
+    margin-top: 10px;
+  }
+  body.chint2 #takeBlock .inputField,
+  body.chint2 #takeBlock .btnAdd {}
+}
+body.chint2 #takeBlock .loadMore {
+  color: #006cb5;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 49px;
+  text-align: center;
+  height: 54px;
+  width: 100%;
+  justify-content: center;
+  cursor: pointer;
+  display: none;
+  margin-top: 9px;
+  ;
+}
+body.chint2 #takeBlock .i_loadMore {
+  width: 26px;
+  height: 22px;
+  float: left;
+  margin-top: 14px;
+  background-image: url(../img/i_loadMore.png);
+  margin-right: 11px;
+}
+@media(max-width: 767px) {
+  body.chint2 #authBlock .col3 {
+    padding-right: 0px;
+  }
+  body.chint2 #authBlock .col3.enter,
+  body.chint2 #authBlock .redit,
+  body.chint2 #authBlock .col3.regit,
+  body.chint2 #takeBlock .take,
+  body.chint2 #takeBlock .redit,
+  body.chint2 #takeBlock .inputField,
+  body.chint2 #takeBlock .btnAdd,
+  body.chint2 #takeBlock .col6,
+  body.chint2 #takeBlock .btnBl {
+    width: 100%;
+  }
+  body.chint2 #authBlock .redit {
+    padding-top: 0px;
+  }
+  body.chint2 #authBlock .redit .wrap,
+  body.chint2 .redit .wrap {
+    max-height: none;
+  }
+  body.chint2 #takeBlock .loadMore {
+    display: flex;
+  }
+  body.chint2 #takeBlock .col6 {
+    padding-right: 0px;
+  }
+  body.chint2 #takeBlock .take .title {
+    font-size: 14px;
+    margin-bottom: 14px;
+    padding: 18px 0px 0px;
+      }
+  body.chint2 #takeBlock .take {
+    margin-bottom: 0px;
+  }
+  body.chint2 #takeBlock .inputField {}
+  body.chint2 #takeBlock .take p {}
+  body.chint2 #takeBlock .distr {
+    padding: 8px 0px 0px;
+  }
+  body.chint2 #takeBlock .distr .title {
+    font-size: 12px;
+  }
+  body.chint2 #takeBlock .distr .wrap {}
+  body.chint2 #takeBlock .distr .wrap div {
+    padding: 11px 8px;
+  }
+  body.chint2 #takeBlock .distr p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  body.chint2 #takeBlock .distr a {}
+  body.chint2 #takeBlock .btnAdd {
+    margin-top: 36px;
+    font-size: 13px;
+    height: 39px;
+    font-weight: 400;
+    line-height: 37.07px;
+  }
+  body.chint2 #takeBlock .form {
+    padding-top: 16px;
+  }
+  body.chint2 #takeBlock .form .inputEl {
+    margin-bottom: 15px;
+  }
+  body.chint2 #takeBlock .form .inputEl p {
+    font-size: 12px;
+  }
+  body.chint2 #takeBlock .form .inputEl input:not([type="submit"]) {
+    line-height: 35px;
+    height: 35px;
+    font-size: 13px;
+  }
+  body.chint2 #takeBlock .redit {
+    display: none;
+      }
+  /*  body.chint2 .redit .bl{}
+  body.chint2 .redit .bl a{}
+  body.chint2 #takeBlock .wrap{}
+  body.chint2 .redit .prod{}
+  body.chint2 .redit .art{}
+  body.chint2 .redit .name{}
+  body.chint2 .redit .quant{}
+  body.chint2 .redit .price{}
+  body.chint2 .redit .prod .price b{}
+  body.chint2 .redit .prod .price p{}
+  body.chint2 .redit .summ{}
+  body.chint2 .redit .summ>b{}
+  body.chint2 .redit .summ>p{}
+  body.chint2 .redit .summ .num{}
+  body.chint2 .redit .summ .num b{}
+  body.chint2 .redit .summ .num p{}*/
+  body.chint2 #takeBlock {
+    padding-bottom: 20px;
+  }
+}
