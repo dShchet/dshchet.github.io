@@ -104,6 +104,9 @@ body{
     background-image: url(img/wd.png);
     background-size: 128px;
     background-position-y: 26px;}
+#ch{
+    background-image: url(img/ch.png);
+    background-position-y: 69px;}
 #dm{
     background-image: url(img/dm.png);
     background-size: 100px;
