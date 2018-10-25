@@ -18,43 +18,165 @@
         <link href="css/my.css" rel="stylesheet" />
         
         <title>Home</title>
+        <link rel="stylesheet" href="css/bootstrap-datepicker3.min.css">
     </head>
     <body>
-        <div class="container">
         
+        
+        <div class="container">
         </div>
         <header class="header">
-            <div class="header_top container"></div>
+            <div class="header_top">
+                <div class="logo"></div>
+                <div class="header_right">
+                    <div class="callB header_rBtn">
+                        <b>+7 (423) 260-50-40</b>
+                        <p>Заказать звонок</p>
+                    </div>
+                    <div class="notifB header_rBtn">
+                        <p class="quant">3</p>
+                        Уведомления
+                    </div>
+                    <div class="profB header_rBtn">ПАО “Ромашка”</div>
+                </div>
+                <div class="callW header_pop">
+                    <div class="h4">Свяжись с нами</div>
+                    <div class="toggleBt">
+                        <a class="" id="header_callBt-call" href="javascript:void(0);">Заказать звонок</a>
+                        <a class="" id="header_callBt-msg" href="javascript:void(0);">Отправить сообщение</a>
+                    </div>
+                    <form action="" class="row header_callForm_1">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="inputH1">Как к вам обратиться</label>
+                                <input type="text" class="form-control" id="inputH1" placeholder="ФИО" required>
+                                <div class="invalid-feedback">Некорректное значение</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputH2">Ваш контактный телефон</label>
+                                <input type="tel" class="form-control" id="inputH2" placeholder="" required>
+                                <div class="invalid-feedback">Некорректное значение</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="input1">Ваше местоположение</label>
+                                <select class="form-control" id="input1">
+                                    <option value="notSelected" selected>Выберете город</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                                <div class="invalid-feedback">Некорректное значение</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputH3">Дата и время звонка</label>
+                                <input type="text" class="form-control" id="inputH3" placeholder="Наприме: Сегодня, после 15" required>
+                                <div class="invalid-feedback">Некорректное значение</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                          <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="inputH4">
+                            <label class="form-check-label" for="inputH4">Я принимаю условия <a href="javascript:void(0);">«Соглашения на обработку персональных данных»</a></label>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <button class="btn btn-block btn-primary">Заказать звонок</button>
+                        </div>
+                    </form>
+                    <form action="" class="row header_callForm_2">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="inputH5">Как к вам обратиться</label>
+                                <input type="text" class="form-control" id="inputH5" placeholder="ФИО" required>
+                                <div class="invalid-feedback">Некорректное значение</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputH6">Ваш контактный телефон</label>
+                                <input type="tel" class="form-control" id="inputH6" placeholder="" required>
+                                <div class="invalid-feedback">Некорректное значение</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="inputH7">Ваше местоположение</label>
+                                <select class="form-control" id="inputH7">
+                                    <option value="notSelected" selected>Выберете город</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                                <div class="invalid-feedback">Некорректное значение</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputH8">Электронная почта</label>
+                                <input type="email" class="form-control" id="inputH8" placeholder="email@mail.com" required>
+                                <div class="invalid-feedback">Некорректное значение</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                              <label for="inputH9">Текст сообщения</label>
+                              <textarea class="form-control" id="inputH9" rows="5" placeholder="Ввод текста"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                          <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="inputH10">
+                            <label class="form-check-label" for="inputH10">Я принимаю условия <a href="javascript:void(0);">«Соглашения на обработку персональных данных»</a></label>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <button class="btn btn-block btn-primary">Отправить сообщение</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="notifW header_pop">
+                    <div class="h4">Уведомления</div>
+                    <a href="javascript:void(0);">Просроченный платеж на 30 098.00 руб</a>
+                    <a href="javascript:void(0);">Просроченный платеж на 20 098.00 руб</a>
+                    <a href="javascript:void(0);">Изменение статуса на “Успешно” с комментарием “Вы успешно по...</a>
+                    <a href="javascript:void(0);">Просроченный платеж на 20 098.00 руб</a>
+                </div>
+                <div class="profW header_pop">
+                    <div class="h4">Профиль</div>
+                    <a class="header_set" href="javascript:void(0);">Настройки</a>
+                    <a class="header_exit" href="javascript:void(0);">Выйти</a>
+                </div>
+            </div>
             <div class="header_menu">
                 <nav class="navbar navbar-expand-md navbar-dark bg-primary">
-                  <div class="container p-0">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
-                   <li class="nav-item active">
-                     <a class="nav-link" href="#">Договоры<span class="sr-only">(current)</span></a>
-                   </li>
-                   <li class="nav-item">
-                     <a class="nav-link" href="#">Заявки</a>
-                   </li>
-                   <li class="nav-item">
-                     <a class="nav-link" href="#">Запросы</a>
-                   </li>
-                   <li class="nav-item">
-                     <a class="nav-link" href="#">Справка</a>
-                   </li>
-                   <li class="nav-item">
-                     <a class="nav-link" href="#">Профиль</a>
-                   </li>
-                  </ul>
-                  </div>
-                </div>
-              </nav>
+                    <div class="container p-0">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Договоры<span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Заявки</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Запросы</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Справка</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Профиль</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
             </div>
         </header>
-        <div class="container dog_1">
+        <div class="container dog_2">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="javascript:void(0);">Договоры</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Договор №87467-125-002 Пр.№ 2.1 от 21.01.2018</li>
@@ -71,7 +193,7 @@
                                             <div class="h5">Параметры договора</div>
                                             <div class="form-group">
                                                 <label for="input1">Дата</label>
-                                                <input type="date" class="form-control" id="input1" placeholder=""  required >
+                                                <input type="text" class="form-control" id="input1" placeholder=""  required >
                                                 <div class="invalid-feedback">Некорректная дата</div>
                                             </div>
                                             <div class="form-group">
@@ -81,7 +203,7 @@
                                             </div>
                                             <div class="form-group">
                                                 <label for="input3">Срок окончания лизинга</label>
-                                                <input type="date" class="form-control" id="input3" placeholder="" > 
+                                                <input type="text" class="form-control" id="input3" placeholder="" > 
                                                 <div class="invalid-feedback">Некорректная дата</div>
                                             </div>
                                             <div class="form-group">
@@ -146,9 +268,9 @@
                                                 <label >Акт сверки взаиморасчетов за период</label>
                                                 <div class="dateLine">
                                                     <span>С</span>
-                                                    <input type="date" class="form-control" id="input11"  placeholder=""  >
+                                                    <input type="text" class="form-control" id="input11"  placeholder=""  >
                                                     <span>ПО</span>
-                                                    <input type="date" class="form-control" id="input12"  placeholder=""  >
+                                                    <input type="text" class="form-control" id="input12"  placeholder=""  >
                                                 </div>
                                                 <a href="javascript:void(0);" class="down">Скачать</a>
                                                 <div class="invalid-feedback">Некорректное значение</div>
@@ -157,9 +279,9 @@
                                                 <label >Акт сверки взаиморасчетов за период</label>
                                                 <div class="dateLine">
                                                     <span>С</span>
-                                                    <input type="date" class="form-control" id="input13"  placeholder=""  >
+                                                    <input type="text" class="form-control" id="input13"  placeholder=""  >
                                                     <span>ПО</span>
-                                                    <input type="date" class="form-control" id="input14"  placeholder=""  >
+                                                    <input type="text" class="form-control" id="input14"  placeholder=""  >
                                                 </div>
                                                 <a href="javascript:void(0);" class="down">Скачать</a>
                                                 <div class="invalid-feedback">Некорректное значение</div>
@@ -168,9 +290,9 @@
                                                 <label >Акт сверки взаиморасчетов за период</label>
                                                 <div class="dateLine">
                                                     <span>С</span>
-                                                    <input type="date" class="form-control" id="input15"  placeholder=""  >
+                                                    <input type="text" class="form-control" id="input15"  placeholder=""  >
                                                     <span>ПО</span>
-                                                    <input type="date" class="form-control" id="input16"  placeholder=""  >
+                                                    <input type="text" class="form-control" id="input16"  placeholder=""  >
                                                 </div>
                                                 <a href="javascript:void(0);" class="down">Скачать</a>
                                                 <div class="invalid-feedback">Некорректное значение</div>
@@ -187,8 +309,14 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="input18">Вариант страхования</label>
-                                        <input type="text" class="form-control" id="input18" placeholder=""  >
-                                        <div class="invalid-feedback">Некорректное значение</div>
+                                        <select class="form-control" id="input18">
+                                            <option value="С франшизой" selected>С франшизой</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                        <div class="invalid-feedback">Please choose a username.</div>
                                     </div>
                                     <div class="form-group">
                                         <label for="input19">Размер франшизы</label>
@@ -370,29 +498,9 @@
             <div class="container">© 2018 ПАО «ЛИЗИНГ»</div>
         </div>
             </footer>
-            <style>
-            /*стили только если использоуется футер*/
-                @media(min-width: 0px){
-                    .footer{height: 485px;}
-                    body{padding-bottom: 575px;}
-                }
-                @media(min-width: 575px){
-                    .footer{height: 410px;}
-                    body{padding-bottom: 500px;}
-                }
-                @media(min-width: 768px){
-                    .footer{height: 360px;}
-                    body{padding-bottom: 450px;}
-                }
-                @media(min-width: 992px){
-                    .footer{height: 335px;}
-                    body{padding-bottom: 425px;}
-                }
-                @media(min-width: 1230px){
-                    .footer{height: 335px;}
-                    body{padding-bottom: 425px;}
-                }
-            </style>
     </body>
     <script src="js/main.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/bootstrap-datepicker.ru.min.js"></script>
+    <script src="js/dogovor_1.js"></script>
 </html>

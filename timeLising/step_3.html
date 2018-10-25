@@ -17,7 +17,7 @@
         
         <title>Home</title>
     </head>
-    <body>
+    <body class="step3">
         
         
         <div class="container">
@@ -173,124 +173,38 @@
                 </nav>
             </div>
         </header>
-        <div class="lizing">
-            <div class="lising_nav">
-                <div class="lising_left toggleBt">
-                    <a href="javascript:void(0);" class="active">Все договоры</a>
-                    <a href="javascript:void(0);" >Завершенные</a>
-                    <a href="javascript:void(0);" >Открытые</a>
-                </div>
-                <div class="lising_right">
-                    <p>По приложениям:</p>
-                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                      <label class="btn btn-secondary  active">
-                        <input type="radio" name="options" id="option1"  checked> Раскрыть
-                      </label>
-                      <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option2" ">Скрыть
-                      </label>
+        <div class="container">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="javascript:void(0);">Заявки</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Формирование заявки</li>
+            </ol>
+            <div class="stepBlock_3">
+                <div class="steps">
+                    <div class="step">
+                        <div class="step_img step_img-1"></div>
+                        <div class="step_num">Шаг 1</div>
+                        <div class="step_name">Формирование заявки</div>
+                    </div>
+                    <div class="step">
+                        <div class="step_img step_img-2"></div>
+                        <div class="step_num">Шаг 2</div>
+                        <div class="step_name">Подготовка кп</div>
+                    </div>
+                    <div class="step">
+                        <div class="step_img step_img-3"></div>
+                        <div class="step_num">Шаг 3</div>
+                        <div class="step_name">Загрузка документов </div>
+                    </div>
+                    <div class="step">
+                        <div class="step_img step_img-4"></div>
+                        <div class="step_num">Шаг 4</div>
+                        <div class="step_name">Одобрение заявки </div>
                     </div>
                 </div>
             </div>
-            <table class="table white">
-              <thead>
-                <tr>
-                  <th scope="col"></th>
-                  <th scope="col">Дата</th>
-                  <th scope="col">Номер</th>
-                  <th scope="col">Статус</th>
-                  <th scope="col">Предмет лизинга</th>
-                  <th scope="col">Платеж</th>
-                  <th scope="col">Дата</th>
-                  <th scope="col">Статус</th>
-                  <th scope="col">Номер платежа</th>
-                  <th scope="col">Остаток платежей</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td><p class="doc"></p></td>
-                  <td>21.01.2018</td>
-                  <td>0000002546</td>
-                  <td>Активен</td>
-                  <td>Volkswagen Transporter</td>
-                  <td>250 000.00</td>
-                  <td>20.05.2018</td>
-                  <td><p class="red">Просрочен!</p></td>
-                  <td>6/36</td>
-                  <td>3 652 100.00</td>
-                </tr>
-                <tr>
-                  <td></td>
-                  <td>21.01.2018</td>
-                  <td>0000002546</td>
-                  <td>Активен</td>
-                  <td>Volkswagen Transporter</td>
-                  <td>250 000.00</td>
-                  <td>20.05.2018</td>
-                  <td><p class="red">Просрочен!</p></td>
-                  <td>6/36</td>
-                  <td>3 652 100.00</td>
-                </tr>
-                <tr>
-                  <td></td>
-                  <td>21.01.2018</td>
-                  <td>0000002546</td>
-                  <td>Активен</td>
-                  <td>Volkswagen Transporter</td>
-                  <td>250 000.00</td>
-                  <td>20.05.2018</td>
-                  <td><p class="red">Просрочен!</p></td>
-                  <td>6/36</td>
-                  <td>3 652 100.00</td>
-                </tr>
-                <tr>
-                  <td><p class="doc"></p></td>
-                  <td>21.01.2018</td>
-                  <td>0000002546</td>
-                  <td>Активен</td>
-                  <td>Volkswagen Transporter</td>
-                  <td>250 000.00</td>
-                  <td>20.05.2018</td>
-                  <td><p class="red">Просрочен!</p></td>
-                  <td>6/36</td>
-                  <td>3 652 100.00</td>
-                </tr>
-                <tr>
-                  <td></td>
-                  <td>21.01.2018</td>
-                  <td>0000002546</td>
-                  <td>Активен</td>
-                  <td>Volkswagen Transporter</td>
-                  <td>250 000.00</td>
-                  <td>20.05.2018</td>
-                  <td><p class="red">Просрочен!</p></td>
-                  <td>6/36</td>
-                  <td>3 652 100.00</td>
-                </tr>
-                <tr>
-                  <td></td>
-                  <td>21.01.2018</td>
-                  <td>0000002546</td>
-                  <td>Активен</td>
-                  <td>Volkswagen Transporter</td>
-                  <td>250 000.00</td>
-                  <td>20.05.2018</td>
-                  <td><p class="red">Просрочен!</p></td>
-                  <td>6/36</td>
-                  <td>3 652 100.00</td>
-                </tr>
-              </tbody>
-            </table>
-            <div class="pagin">
-                <p>Страницы</p>
-                <nav>
-                  <ul class="pagination">
-                    <li class="page-item active"><a class="page-link " href="javascript:void(0);">1</a></li>
-                    <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
-                    <li class="page-item"><a class="page-link" href="javascript:void(0);">3</a></li>
-                  </ul>
-                </nav>
+            <div class="mount">
+                <div class="h4">Заявка #000123 от 02.04.2018 </div>
+
             </div>
         </div>
         <footer class="footer">
