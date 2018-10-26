@@ -2,7 +2,6 @@
 html {
   position: relative;
   min-height: 100%;
-  
 }
 body {
   background-color: #fdfdfd;
@@ -37,7 +36,6 @@ button {
   text-transform: uppercase;
   margin-bottom: 19px;
   font-family: "Proxima Nova - Semibold";
-
 }
 .h5 {
   margin-bottom: 20px;
@@ -85,7 +83,7 @@ button {
   border: none;
   padding: 17px 10px 33px;
   vertical-align: middle;
-  font-weight: 400;;
+  font-weight: 400;
 }
 .table.white {
   border-radius: 5px;
@@ -313,6 +311,7 @@ a.down {
   font-size: 18px;
   padding: 0px 15px;
 }
+
 /*.pageProfile,
 .pageDog_1 .mount {
   margin-bottom: 50px;
@@ -409,62 +408,200 @@ a.down {
     padding: 9px 10px;
   }
 }
-
-.pageSuccess .wrap{
+.pageSuccess .wrap {
   text-align: center;
   margin: 88px 0px 40px;
 }
-.pageSuccess .wrap p{
+.pageSuccess .wrap p {
   font-size: 18px;
   line-height: 20px;
 }
-
-.pageList .table{width: 100%;}
-
-.pageList .btn{
+.pageList .table {
+  width: 100%;
+}
+.pageList .btn {
   color: #fff;
   padding: 4px 32px;
   border-radius: 5px;
-  margin-bottom: 8px;;;;}
-.pageList .header{margin-bottom30;
-  margin-bottom: 27px;: }
-.pageList .table.white thead th{
-  padding: 17px 10px 16px;}
-
-.pageList .table td{
-  padding: 36px 10px;}
-
-.pageRefer{}
-.pageRefer .header{
-  margin-bottom: 34px;}
-.pageRefer .h4{    
-  font-family: "Proxima Nova - Semibold";}
-.pageRefer .mount .h4{
+  margin-bottom: 8px;
+}
+.pageList .header {
+  margin-bottom: 27px;
+  :
+}
+.pageList .table.white thead th {
+  padding: 17px 10px 16px;
+}
+.pageList .table td {
+  padding: 36px 10px;
+}
+.pageRefer {}
+.pageRefer .header {
+  margin-bottom: 34px;
+}
+.pageRefer .h4 {
+  font-family: "Proxima Nova - Semibold";
+}
+.pageRefer .mount .h4 {
   color: #000000;
   margin-bottom: 17px;
-  font-size: 18px;}
-.pageRefer .mount{
+  font-size: 18px;
+}
+.pageRefer .mount {
   padding: 23px 30px 25px;
-  margin-bottom: 8px;;}
-.pageRefer .mount p{
-  line-height: 24px;}
-.pageRefer .mount .down{
+  margin-bottom: 8px;
+}
+.pageRefer .mount p {
+  line-height: 24px;
+}
+.pageRefer .mount .down {
   color: #019c5a;
-  text-decoration: underline;;}
-.pageRefer .pageRefer .mount{}
-
-
-
-.btn-sr{
+  text-decoration: underline;
+}
+.pageRefer .pageRefer .mount {}
+.btn-sr {
   padding: 6px 50px;
   border-radius: 7px;
 }
-.pageDashboard{}
 
-.pageRequests{}
+.carousel-indicators li {
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  border: 1px solid #dedede;
+}
+.carousel-indicators li:hover,
+.carousel-indicators .active {
+  border: 1px solid #019c5a;
+}
 
-
-
-
-
-
+.textCard {
+  background-position: 15px 6px;
+  background-repeat: no-repeat;
+  padding-left: 79px;
+  margin-bottom: 22px;
+}
+.textCard b {
+  line-height: 24px;
+  margin-bottom: 9px;
+  font-size: 18px;
+  font-family: "Proxima Nova - Semibold";
+  display: block;
+}
+.textCard p {
+  font-size: 14px;
+  line-height: 20px;
+}
+.textCard-su {
+  background-image: url(../img/textCard-su.png);
+}
+.textCard-fz {
+  background-image: url(../img/textCard-fz.png);
+}
+.textCard-pi {
+  background-image: url(../img/textCard-pi.png);
+}
+.textCard-nu {
+  background-image: url(../img/textCard-nu.png);
+}
+.userBl {
+  position: relative;
+  padding-left: 62px;
+  min-height: 57px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.userBl .userBl_img {
+  width: 44px;
+  height: 44px;
+  border-radius: 6px;
+  border: 1px solid #dedede;
+  background-color: #dedede;
+  position: absolute;
+  top: 5px;
+  left: 2px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;;
+}
+.userBl b {
+  color: #000000;
+  font-family: "Proxima Nova - Semibold";
+  font-size: 14px;
+  display: block;
+  width: 100%;
+}
+.userBl p {
+  color: #8a8a8a;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  margin: 0px;
+  line-height: 18px;
+}
+.userBl_time {
+  background-image: url(../img/userBl_time.png);
+  background-position: 4px center;
+  background-repeat: no-repeat;
+  padding-left: 43px;
+  margin-bottom: 15px;
+}
+.userBl_tel {
+  background-image: url(../img/userBl_tel.png);
+  background-position: 4px center;
+  background-repeat: no-repeat;
+  padding-left: 43px;
+  margin-bottom: 17px;
+}
+.userBl_adr {
+  background-image: url(../img/userBl_adr.png);
+  line-height: 16.75px;
+  background-position: 4px center;
+  background-repeat: no-repeat;
+  padding-left: 43px;
+  font-size: 12px;
+  margin-bottom: 24px;
+}
+.pageRequests {}
+.pageDashboard .h5 {
+  color: #191919;
+  font-family: "Proxima Nova";
+  font-size: 24px;
+  font-weight: 400;
+  margin: 39px 0px 30px;
+}
+.pageDashboard .header {
+  margin-bottom: 27px;
+}
+.pageDashboard .mount {
+  padding: 21px 30px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.pageDashboard .carousel-item {
+  min-height: 229px;
+  padding-bottom: 50px;
+}
+.pageDashboard .h2 {
+  line-height: 32px;
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+.pageDashboard .carousel-indicators {
+  top: 0px;
+  right: 0px;
+  left: inherit;
+  margin: 0px;
+}
+.pageDashboard .carousel .mount {}
+.pageDashboard .btn {
+  display: block;
+  max-width: 322px;
+  width: 100%;
+  bottom: 3px;
+  left: 3px;
+}
