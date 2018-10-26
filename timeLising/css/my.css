@@ -1,4 +1,3 @@
-
 html {
   position: relative;
   min-height: 100%;
@@ -9,13 +8,19 @@ body {
   padding-bottom: 350px;
   font-family: "Proxima Nova";
 }
-button {
-  outline: none!important
-}
+button {outline: none!important}
+
 .btn {
   line-height: 34px;
   font-size: 18px;
 }
+*:hover{
+  transition:         color 0.1s ease,background-image 0.2s ease-in-out;
+  -moz-transition:    color 0.1s ease,background-image 0.2s ease-in-out;
+  -webkit-transition: color 0.1s ease,background-image 0.2s ease-in-out;
+  -o-transition:      color 0.1s ease,background-image 0.2s ease-in-out;
+}
+
 .logo {
   width: 234px;
   height: 25px;
@@ -24,6 +29,7 @@ button {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .mount {
   box-shadow: -7px 9px 32px rgba(29, 29, 29, 0.03);
   border-radius: 5px;
@@ -31,24 +37,29 @@ button {
   background-color: #ffffff;
   padding: 27px 30px;
 }
+
 .h4 {
   font-size: 19px;
   text-transform: uppercase;
   margin-bottom: 19px;
   font-family: "Proxima Nova - Semibold";
 }
+
 .h5 {
   margin-bottom: 20px;
 }
+
 .page-link {
   padding: 3px 8px;
 }
 .page-link:focus {
   box-shadow: none;
 }
+
 .datepicker table tr td.active {
   background-color: #019c5a!important;
 }
+
 .toggleBt a {
   color: #808080;
   font-family: "Proxima Nova";
@@ -66,6 +77,7 @@ button {
   font-weight: 600;
   border-color: #019c5a;
 }
+
 .table td {
   color: #000000;
   font-family: "Proxima Nova";
@@ -101,13 +113,14 @@ button {
   vertical-align: middle;
   display: block;
 }
+
 .btn-sm {
-  font-family: "Proxima Nova";
-  color: #019c5a;
-  font-size: 14px;
-  line-height: 20.75px;
   padding: 4px 12px;
+  line-height: 20.75px;
+  font-size: 14px;
+  font-family: "Proxima Nova";
 }
+
 .dateLine {
   padding: 6px 0px 0px;
   display: flex;
@@ -126,6 +139,7 @@ button {
   font-size: 14px;
   font-weight: 400;
 }
+
 a.down {
   color: #019c5a;
   font-family: "Proxima Nova";
@@ -135,41 +149,7 @@ a.down {
   text-decoration: none;
   border-bottom: 1px solid #019c5a;
 }
-.table_dog-1 {
-  border-radius: 4px 4px 0 0;
-}
-.table_dog-1 thead th {
-  background-color: #effbf6;
-  color: #303030;
-  font-family: "Proxima Nova - Semibold";
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 20.75px;
-}
-.table_dog-1 th,
-.table_dog-1 td {
-  padding: 5px 10px;
-  text-align: center;
-  font-size: 12px;
-  font-weight: 400;
-}
-.table_dog-1 tbody td {
-  color: #000000;
-  font-family: "Proxima Nova";
-  line-height: 14px;
-  text-align: center;
-  padding: 0px 10px;
-}
-.table_dog-1 tr.oplach {
-  background-color: #e8e8e8;
-}
-.table_dog-1 tr.prosr {
-  background-color: #f54343;
-  color: #ffffff;
-}
-.table_dog-1 tr.prosr td {
-  color: #ffffff;
-}
+
 .abrBL {
   margin-top: 19px;
   overflow: auto;
@@ -228,14 +208,7 @@ a.down {
   padding-top: 1px;
   float: left;
 }
-.pageEnter,
-.pageEnter_suc,
-.pageRecovery {
-  align-items: center;
-  justify-content: center;
-  min-height: 100%;
-  display: flex;
-}
+
 .wrapCenter .mount {
   padding: 27px 48px;
   width: 420px;
@@ -259,6 +232,7 @@ a.down {
 .wrapCenter .btn {
   margin-bottom: 15px;
 }
+
 .iconBigCheck {
   width: 76px;
   height: 91px;
@@ -268,6 +242,7 @@ a.down {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .textBl div {
   overflow: auto;
 }
@@ -282,40 +257,7 @@ a.down {
 .textBl a {
   float: right;
 }
-.requests_suc {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  height: calc(100% - 133px);
-  min-height: 205px;
-}
-.requests_suc .wrap {
-  width: 272px;
-  font-family: "Proxima Nova";
-  text-align: center;
-}
-.requests_suc p {
-  font-size: 18px;
-  line-height: 20px;
-  margin-bottom: 15px;
-  text-decoration: none;
-}
-.requests_suc a {
-  font-size: 14px;
-  line-height: 16px;
-}
-.pageEnter_suc {
-  text-align: center;
-}
-.pageEnter_suc p {
-  font-size: 18px;
-  padding: 0px 15px;
-}
 
-/*.pageProfile,
-.pageDog_1 .mount {
-  margin-bottom: 50px;
-}*/
 .btBlock {
   padding: 8px 0px;
 }
@@ -333,21 +275,6 @@ a.down {
   border-left: 2px solid #ffffff;
   cursor: pointer;
 }
-.btBlock button.bt-user {
-  background-image: url(../img/bt-user.png);
-}
-.btBlock button.bt-lizTake {
-  background-image: url(../img/bt-lizTake.png);
-}
-.btBlock button.bt-lizGive {
-  background-image: url(../img/bt-lizGive.png);
-}
-.btBlock button.bt-men {
-  background-image: url(../img/bt-men.png);
-}
-.btBlock button.bt-notife {
-  background-image: url(../img/bt-notife.png);
-}
 .btBlock button:hover,
 .btBlock button.active {
   border-radius: 1px 1px 0 0;
@@ -358,15 +285,29 @@ a.down {
   font-weight: 400;
   border-left: 2px solid #019c5a;
 }
+.btBlock .bt-user            {background-image: url(../img/bt-user.png);}
+.btBlock .bt-user.active,
+.btBlock .bt-user:hover      {background-image: url(../img/bt-user-h.png);}
+.btBlock .bt-lizTake         {background-image: url(../img/bt-lizTake.png);}
+.btBlock .bt-lizTake.active,
+.btBlock .bt-lizTake:hover   {background-image: url(../img/bt-lizTake-h.png);}
+.btBlock .bt-lizGive         {background-image: url(../img/bt-lizGive.png);}
+.btBlock .bt-lizGive.active,
+.btBlock .bt-lizGive:hover   {background-image: url(../img/bt-lizGive-h.png);}
+.btBlock .bt-men             {background-image: url(../img/bt-men.png);}
+.btBlock .bt-men.active,
+.btBlock .bt-men:hover       {background-image: url(../img/bt-men-h.png);}
+.btBlock .bt-notife          {background-image: url(../img/bt-notife.png);}
+.btBlock .bt-notife.active,
+.btBlock .bt-notife:hover    {background-image: url(../img/bt-notife-h.png);}
+
 .px-30 {
   padding: 0px 30px;
 }
 .mb-30 {
   margin-bottom: 30px;
 }
-.pageProfile {
-  padding-top: 27px;
-}
+
 .thead-light {
   border-radius: 4px 4px 0 0;
   border: 1px solid #dedede;
@@ -376,6 +317,7 @@ a.down {
   padding: 6px 35px;
   font-family: "Proxima Nova - Semibold";
 }
+
 .table-light {
   border-radius: 4px;
   border: 1px solid #dedede;
@@ -384,86 +326,21 @@ a.down {
 .table-light td {
   padding: 9px 35px;
 }
-.row-def td {
-  color: #a9a9a9;
-}
-.pageDog_3 .header {
-  margin-bottom: 35px;
-}
-.pageDog_3 .btn {
-  font-size: 16px;
-  line-height: 31px;
-  margin-bottom: 12px;
-}
-.pageDog_3 .down {
-  width: 210px;
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
-  margin-bottom: 30px;
-}
 @media(max-width: 767px) {
   .table-light td,
   .thead-light th {
     padding: 9px 10px;
   }
 }
-.pageSuccess .wrap {
-  text-align: center;
-  margin: 88px 0px 40px;
+
+.row-def td {
+  color: #a9a9a9;
 }
-.pageSuccess .wrap p {
-  font-size: 18px;
-  line-height: 20px;
-}
-.pageList .table {
-  width: 100%;
-}
-.pageList .btn {
-  color: #fff;
-  padding: 4px 32px;
-  border-radius: 5px;
-  margin-bottom: 8px;
-}
-.pageList .header {
-  margin-bottom: 27px;
-  :
-}
-.pageList .table.white thead th {
-  padding: 17px 10px 16px;
-}
-.pageList .table td {
-  padding: 36px 10px;
-}
-.pageRefer {}
-.pageRefer .header {
-  margin-bottom: 34px;
-}
-.pageRefer .h4 {
-  font-family: "Proxima Nova - Semibold";
-}
-.pageRefer .mount .h4 {
-  color: #000000;
-  margin-bottom: 17px;
-  font-size: 18px;
-}
-.pageRefer .mount {
-  padding: 23px 30px 25px;
-  margin-bottom: 8px;
-}
-.pageRefer .mount p {
-  line-height: 24px;
-}
-.pageRefer .mount .down {
-  color: #019c5a;
-  text-decoration: underline;
-}
-.pageRefer .pageRefer .mount {}
+
 .btn-sr {
   padding: 6px 50px;
   border-radius: 7px;
 }
-
 .carousel-indicators li {
   width: 12px;
   height: 12px;
@@ -504,6 +381,7 @@ a.down {
 .textCard-nu {
   background-image: url(../img/textCard-nu.png);
 }
+
 .userBl {
   position: relative;
   padding-left: 62px;
@@ -524,7 +402,7 @@ a.down {
   left: 2px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;;
+  background-size: cover;
 }
 .userBl b {
   color: #000000;
@@ -566,42 +444,151 @@ a.down {
   font-size: 12px;
   margin-bottom: 24px;
 }
-.pageRequests {}
-.pageDashboard .h5 {
-  color: #191919;
-  font-family: "Proxima Nova";
-  font-size: 24px;
-  font-weight: 400;
-  margin: 39px 0px 30px;
+
+.iconBigWait {
+  width: 65px;
+  height: 84px;
+  background-image: url(../img/iconBigWait.png);
 }
-.pageDashboard .header {
+
+.btn-bg {
+  width: 100%;
+  max-width: 322px;
+  line-height: 34px;
+  background-color: #019c5a;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.hisBL {
+  position: relative;
+  padding: 10px 15px 13px 121px;
+  max-width: 880px;
+}
+.hisBL .iconBl {
+  width: 78px;
+  height: 78px;
+  border-radius: 39px;
+  border: 1px solid #dedede;
+  background-color: #ffffff;
+  position: absolute;
+  top: 5px;
+  left: 23px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.hisBL .date {
+  color: #7b7b7b;
+  line-height: 17px;
+}
+.hisBL .status {
+  font-family: "Proxima Nova - Semibold";
+  color: #18a569;
+  line-height: 17px;
+  margin: 6px 0px;
+}
+.hisBL .status b {
+  margin-right: 3px;
+  color: #000000;
+}
+.hisBL p {
+  line-height: 20px;
+}
+.hisBL .iconBl-w {
+  background-image: url(../img/iconBl-w.png);
+  background-size: auto;
+}
+.hisBL .iconBl-s {
+  background-image: url(../img/iconBl-s.png);
+  background-size: auto;
+}
+@media(max-width: 767px) {
+  .hisBL {
+    padding-left: 90px;
+  }
+  .hisBL .iconBl {
+    left: 0px;
+  }
+}
+
+.table_dog-1 {
+  border-radius: 4px 4px 0 0;
+}
+.table_dog-1 thead th {
+  background-color: #effbf6;
+  color: #303030;
+  font-family: "Proxima Nova - Semibold";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20.75px;
+}
+.table_dog-1 th,
+.table_dog-1 td {
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+}
+.table_dog-1 tbody td {
+  color: #000000;
+  font-family: "Proxima Nova";
+  line-height: 14px;
+  text-align: center;
+  padding: 0px 10px;
+}
+.table_dog-1 tr.oplach {
+  background-color: #e8e8e8;
+}
+.table_dog-1 tr.prosr {
+  background-color: #f54343;
+  color: #ffffff;
+}
+.table_dog-1 tr.prosr td {
+  color: #ffffff;
+}
+
+.pageEnter,
+.pageEnter_suc,
+.pageRecovery {
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  display: flex;
+}
+
+.pageEnter_suc {
+  text-align: center;
+}
+.pageEnter_suc p {
+  font-size: 18px;
+  padding: 0px 15px;
+}
+
+.pageProfile {
+  padding-top: 27px;
+}
+
+.pageList .table {
+  width: 100%;
+}
+.pageList .btn {
+  color: #fff;
+  padding: 4px 32px;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+.pageList .header {
   margin-bottom: 27px;
 }
-.pageDashboard .mount {
-  padding: 21px 30px;
-  position: relative;
-  margin-bottom: 18px;
+.pageList .table.white thead th {
+  padding: 17px 10px 16px;
 }
-.pageDashboard .carousel-item {
-  min-height: 229px;
-  padding-bottom: 50px;
+.pageList .table td {
+  padding: 36px 10px;
 }
-.pageDashboard .h2 {
-  line-height: 32px;
-  font-size: 32px;
-  margin-bottom: 24px;
-}
-.pageDashboard .carousel-indicators {
-  top: 0px;
-  right: 0px;
-  left: inherit;
-  margin: 0px;
-}
-.pageDashboard .carousel .mount {}
-.pageDashboard .btn {
-  display: block;
-  max-width: 322px;
-  width: 100%;
-  bottom: 3px;
-  left: 3px;
-}
+
+
+
+
+
