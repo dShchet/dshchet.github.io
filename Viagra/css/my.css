@@ -1,0 +1,64 @@
+
+
+.sec_5 {}
+.sec_5 .wrapBL {position: relative;padding: 15px;;;}
+.sec_5 .wrapCont {}
+.sec_5 .h3 {color: #474747;font-size: 30px;font-weight: 400;line-height: 50px;text-transform: uppercase;letter-spacing: 1.2px;text-align: center;width: 100%;margin-top: -25px;position: absolute;top: 14%;}
+.sec_5 .textBl {color: #474747;font-size: 16px;font-weight: 400;line-height: 22px;position: absolute;z-index: 5;}
+.sec_5 .textBl_1 {margin-top: -77px;position: absolute;top: 35%;left: 248px;max-width: 950px;}
+.sec_5 .textBl_2 {margin-top: -77px;top: 65%;text-align: right;max-width: 1180px;right: 11%;}
+.sec_5 .textBl  b {font-size: 18px;font-weight: 700;letter-spacing: 0.72px;}
+.sec_5 .textBl  p {font-weight: 400;letter-spacing: 0.64px;}
+.sec_5 .btn {border-radius: 7px;background-color: #5a5858;color: #ffffff;font-size: 19px;font-weight: 400;line-height: 50px;letter-spacing: 0.38px;left: 50%;top: 82%;margin-top: -26px;padding: 0px 64px;text-align: right;position: absolute;margin-left: -116px;}
+.sec_5 .back {position: absolute;z-index: 1;}
+.sec_5 .back1 {width: 811px;margin-left: -405px;margin-top: -405px;height: 364px;left: -11%;top: 57%;;}
+.sec_5 .back2 {margin-left: -390px;margin-top: -161px;left: 1%;height: 322px;width: 781px;top: 84%;;}
+.sec_5 .back3 {width: 781px;margin-left: -390px;margin-top: -161px;height: 322px;left: 96%;top: 48%;}
+.sec_5 .wrapBL {position: relative;}
+.sec_5 .wrapCont {;}
+.sec_5 .h3 {color: #474747;
+font-size: 30px;
+font-weight: 400;
+line-height: 50px;
+text-transform: uppercase;
+letter-spacing: 1.2px;text-align: center;width: 100%;margin-top: -25px;position: absolute;top: 14%;;;;;;}
+.sec_5 .textBl  {color: #474747;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;position: absolute;;
+}
+.sec_5 .textBl_1 {margin-top: -77px;;position: absolute;top: 35%;max-width: 950px;left: 16%;}
+.sec_5 .textBl_2 {margin-top: -77px;    right: 12%;
+    top: 65%;;text-align: right;max-width: 1180px;;;;}
+.sec_5 .textBl  b {
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 0.72px;}
+.sec_5 .textBl  p {
+font-weight: 400;
+letter-spacing: 0.64px;}
+.sec_5 .btn{border-radius: 7px;
+background-color: #5a5858;color: #ffffff;
+font-size: 19px;
+font-weight: 400;
+line-height: 50px;
+/* Text style for "Подробнее" */
+letter-spacing: 0.38px;left: 50%;top: 82%;margin-top: -26px;padding: 0px 64px;text-align: right;position: absolute;margin-left: -116px;;}
+.sec_5 .back {position: absolute;}
+.sec_5 .back1 {width: 811px;margin-left: -405px;margin-top: -405px;
+height: 364px;left: -11%;top: 57%;;;}
+.sec_5 .back2 {width: 781px;margin-left: -390px;margin-top: -161px;
+height: 322px;    left: 1%;}
+.sec_5 .back3 {width: 781px;margin-left: -390px;margin-top: -161px;
+height: 322px;}
+
+
+
+
+
+
+
+
+
+
+.sec_5 {}
