@@ -17305,7 +17305,7 @@ toggle_sec_2('.sec_2 .bt_2', '.sec_2 .infoBl_2','btnBlock_2');
 toggle_sec_2('.sec_2 .bt_3', '.sec_2 .infoBl_3','btnBlock_3');
 toggle_sec_2('.sec_2 .bt_4', '.sec_2 .infoBl_4','btnBlock_4');
 toggle_sec_2('.sec_2 .bt_5', '.sec_2 .infoBl_5','btnBlock_5');
-
+$('.sec_2 .btnBlock').removeClass('btnBlock_1  btnBlock_2  btnBlock_3  btnBlock_4  btnBlock_5');
 $('.sec_2 .infoBl_1').show();
 $('.sec_2 .btnBlock').addClass('btnBlock_1');
 
@@ -17328,3 +17328,36 @@ toggle_sec_4('.sec_4 .bt_5', '.sec_4 .infoBl_5','btnBlock_5');
 
 $('.sec_4 .infoBl_1').show();
 $('.sec_4 .btnBlock').addClass('btnBlock_1');
+
+function toggle_sec_7(btn,toShow, addBtnblock){
+    $(btn).on( "click", function() {
+        $('.sec_7 .infoBlWrap').removeClass('shown');
+        $(toShow).addClass('shown');
+        $('.sec_7 .bt').removeClass('active');
+        $(btn).addClass('active');
+    });
+}
+
+toggle_sec_7('.sec_7 .bt_1', '.sec_7 .infoBlWrap1','btnBlock_1');
+toggle_sec_7('.sec_7 .bt_2', '.sec_7 .infoBlWrap2','btnBlock_2');
+
+$('.sec_7 .infoBlWrap1').addClass('shown');
+$('.sec_7 .btnBlock').addClass('btnBlock_1');
+$('.sec_7 .bt_1').addClass('active');
+
+
+function toggle_sec_8(btn,toShow){
+    $(btn).on( "click", function() {
+        $('.sec_8 .centerBl').removeClass('shown');
+        $(toShow).addClass('shown');
+        $(toShow).addClass('shown');
+        $('.sec_8 .toglleBtn').removeClass('active');
+        $(btn).addClass('active');
+    });
+}
+
+toggle_sec_8('.sec_8 .leftBl' ,'.sec_8 centerBl_L');
+toggle_sec_8('.sec_8 .rightBl','.sec_8 centerBl_R');
+
+$('.sec_8 .centerBl_L').addClass('shown');
+$('.sec_8 .leftBl').addClass('active');
