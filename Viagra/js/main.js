@@ -17361,3 +17361,9 @@ toggle_sec_8('.sec_8 .rightBl','.sec_8 centerBl_R');
 
 $('.sec_8 .centerBl_L').addClass('shown');
 $('.sec_8 .leftBl').addClass('active');
+
+
+
+$('.rightBL, .close').click(function(){
+    $('.chatWrap').toggleClass('closed');
+});
