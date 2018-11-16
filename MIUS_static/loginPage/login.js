@@ -4,7 +4,7 @@ function checkLoginInfo(login, pass) {
     if(login=='f'&&pass=="n"){
         $(".loginBlock").removeClass('invalidCode');
         setTimeout(function(){
-            // window.location.href=url2+"/sudpret"
+            window.location.href="https://dshchet.github.io/MIUS_static/sudpretPage/index.html"
           },200);
     }else{$(".loginBlock").addClass('invalidCode');}
 }

@@ -19,11 +19,11 @@
         var row = function (user) {
             if(user.OTDEL=="PRAVO"){
                 var podr='PRAVO';
-              return "<a class='link' >Правовой отдел</a>";
+              return "<a class='link' href='https://dshchet.github.io/MIUS_static/otdelPage/index.html'>Правовой отдел</a>";
             }
             if(user.OTDEL=="KEZO"){
                 var podr='KEZO';
-              return "<a class='link' )>Комитет имущественных и земельных отношений</a>";
+              return "<a class='link' href='https://dshchet.github.io/MIUS_static/otdelPage/index.html')>Комитет имущественных и земельных отношений</a>";
             }
         }
         function goto(otdel){

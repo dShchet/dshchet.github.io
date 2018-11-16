@@ -24,15 +24,15 @@
         var row = function (data) {
             if(data.OTDEL_PRAVO=="ARBITRATION"){
                 var podr='arbtrg';
-              return "<a class='link' >Арбитраж</a>";
+              return "<a class='link' href='https://dshchet.github.io/MIUS_static/deloPage/index.html'>Арбитраж</a>";
             }
             if(data.OTDEL_PRAVO=="ISP_LAND_LEASE"){
                 var podr="land"
-              return "<a class='link' >Аренда земли</a>";
+              return "<a class='link' href='https://dshchet.github.io/MIUS_static/deloPage/index.html'>Аренда земли</a>";
             }
             if(data.OTDEL_PRAVO=="ISP_ROOM_RENTAL"){
                 var podr="room"
-              return "<a class='link'>Аренда помещений</a>";
+              return "<a class='link' href='https://dshchet.github.io/MIUS_static/deloPage/index.html'>Аренда помещений</a>";
             }
         }
         function goto(otdel){

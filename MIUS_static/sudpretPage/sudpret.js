@@ -13,7 +13,7 @@ function getFilter(inn, name) {
 }
 // создание строки для таблицы
 var row = function (user) {
-    return "<tr data-rowid='" + user.INN + "'><td><b><a >" + user.INN + "</b><p><a >" + user.NAME_FULL + "</a></p></td><td ><button class='infoBtn' onclick='info("+user.INN+")'>Info</button></td>";
+    return "<tr data-rowid='" + user.INN + "'><td><b><a href='https://dshchet.github.io/MIUS_static/innPage/index.html'>" + user.INN + "</b><p><a href='https://dshchet.github.io/MIUS_static/innPage/index.html'>" + user.NAME_FULL + "</a></p></td><td ><button class='infoBtn' onclick='info("+user.INN+")'>Info</button></td>";
 }
 $("#filterInn, #filterName").keyup(function(e){
     e.preventDefault();
